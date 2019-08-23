@@ -61,4 +61,4 @@ if __name__ == '__main__':
             server = get_smtp_server(email_credentials)
             run_via_google(process_name, parameters, server, email_credentials)
             message.delete()
-        time.sleep(1)
+        time.sleep(5)
